@@ -1,4 +1,4 @@
-package view;
+package main.java.view;
 
 import javax.swing.*;
 import java.awt.*;
@@ -54,13 +54,13 @@ public class Menu extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object src = e.getSource();
         if (src == btRegistrarFuncion) {
-            new RegistrarFuncionxGenero();
+            new view.RegistrarFuncionxGenero();
         } else if (src == btRegistrarPelicula) {
-            new RegistrarPeliculaxGenero();
+            new view.RegistrarPeliculaxGenero();
         } else if (src == btConsultarPelicula) {
-            new ConsultarPeliculaxGenero();
+            new view.ConsultarPeliculaxGenero();
         } else if (src == btConsultarRecaudacionxPeliculas) {
-            new ReporteRecaudacion();
+            new view.ReporteRecaudacion();
         }
     }
 

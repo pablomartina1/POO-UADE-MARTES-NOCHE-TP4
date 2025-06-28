@@ -1,8 +1,10 @@
+package java;
 
 import controller.PeliculasController;
 import controller.VentasController;
-import model.*;
+import java.model.*;
 import org.junit.jupiter.api.Test;
+
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
